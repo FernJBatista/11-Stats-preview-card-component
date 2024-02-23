@@ -1,0 +1,272 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white-h: hsla(0, 0%, 100%, 0.75);
+  --Slightly-transparent-white-p: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  background-color: var(--Very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.5rem;
+  background-color: var(--Dark-desaturated-blue);
+  gap: 6rem;
+  box-sizing: border-box;
+  max-width: 72rem;
+  overflow: hidden;
+}
+main section.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+}
+main section.content header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main section.content header h1 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+main section.content header h1 span {
+  color: var(--Soft-violet);
+}
+main section.content header p {
+  font-size: 1rem;
+  font-family: Lexend Deca, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--Slightly-transparent-white-p);
+}
+main section.content section.data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main section.content section.data div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main section.content section.data div h2 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--White);
+}
+main section.content section.data div p {
+  font-family: Lexend Deca, Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: var(--Slightly-transparent-white-p);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+main .header-image {
+  width: 100%;
+  position: relative;
+}
+main section.header-image::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(277, 64%, 61%, 0.6);
+}
+main section.header-image img {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+
+@media (max-width: 478px) {
+  body {
+    padding: 2rem 1rem;
+  }
+  body main {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+  body .header-image {
+    width: 100%;
+    position: relative;
+  }
+  body section.header-image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 18rem;
+    filter: sepia(10%);
+  }
+  body section.header-image img {
+    display: block;
+    min-width: 100%;
+    height: 18rem;
+  }
+  body section.content {
+    padding: 1.5rem;
+    gap: 2rem;
+  }
+  body section.content header {
+    text-align: center;
+    gap: 1.2rem;
+  }
+  body section.content header h1 {
+    font-size: 1.8rem;
+  }
+  body section.content section.data {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
