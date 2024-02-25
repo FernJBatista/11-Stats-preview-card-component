@@ -4,15 +4,15 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
 
--   [Frontend Mentor - Stats preview card component solution](#frontend-mentor---stats-preview-card-component-solution)
-    -   [Table of contents](#table-of-contents)
-    -   [Overview](#overview)
-        -   [The challenge](#the-challenge)
-        -   [Screenshot](#screenshot)
-        -   [Links](#links)
-    -   [My process](#my-process)
-        -   [Built with](#built-with)
-    -   [Author](#author)
+- [Frontend Mentor - Stats preview card component solution](#frontend-mentor---stats-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [GitHub](https://github.com/FernJBatista/11-Stats-preview-card-component)
--   Live Site URL: [Live Site](https://fernjbatista.github.io/11-Stats-preview-card-component/)
+-   Solution URL: [GitHub](https://github.com/FernJBatista/Stats-preview-card-component)
+-   Live Site URL: [Live Site](https://fernjbatista.github.io/Stats-preview-card-component/)
 
 ## My process
 
